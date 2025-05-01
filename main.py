@@ -1,3 +1,24 @@
+#feedback to implement
+
+#BUGFIXING
+#incorrect user and password returning user to terminal
+#new login details returning user to terminal
+#no logout option
+
+#UNFINISHED
+#bcrypt
+#password update code
+#user register not checking if user already exists (didnt have time to implement)
+
+#FEEDBACK
+#inefficient user lookup - load user/password file as a dictionary instead of reading from text file
+#userlogin uses a lot of nested loops
+#lots of use of global variables (LEAVE ME AND MY GLOBAL VARIABLES ALONE >:[ )
+#no input validation
+#code does not handle file not found or invalid file formats
+#code duplication - create functions for common functionalities
+#no exit condition for main - use while loop instead of recursion for menu logic
+
 useraction = "_"
 
 def main():
